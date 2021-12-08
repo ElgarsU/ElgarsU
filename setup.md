@@ -35,11 +35,6 @@ nvm install node
 nvm install --lts
 nvm use node or nvm run node --version
 
-
-//Install Cypress
-npm init
-npm install cypress --save-dev
-
 //Install Prettier
 npm install --save-dev --save-exact prettier
 echo {}> .prettierrc.json
