@@ -13,3 +13,6 @@ vagrant reload [id] <br>
  <br>
 //Destroy and delete image <br>
 vagrant destroy [id] <br>
+<br>
+//View vagrant version
+vagrant --version
