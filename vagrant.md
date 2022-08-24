@@ -14,5 +14,5 @@ vagrant reload [id] <br>
 //Destroy and delete image <br>
 vagrant destroy [id] <br>
 <br>
-//View vagrant version
+//View vagrant version<br>
 vagrant --version
