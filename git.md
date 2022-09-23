@@ -24,6 +24,6 @@ git push origin --delete
 git push -d origin (branch name)
 git push origin --delete (branch name)
 
-(rebase and keep diff merge commits)
+(rebase and keep diff merge commits) <br>
 git rebase --rebase-merges origin/develop (branch name)
 
