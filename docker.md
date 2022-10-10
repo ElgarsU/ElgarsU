@@ -2,4 +2,4 @@
 docker-compose up -d<br>
 <br>
 //create DB users in container<br>
-./createuser.sh <username> <password><br>
+./createuser.sh (username) (password)<br>
