@@ -31,7 +31,7 @@ git reflog
 <br>
 git rebase -i HEAD~(n of commits to rebase)
 <br>
-git rebase origin/develop<br>
+git rebase origin/develop
 <br>
 git rebase --rebase-merges origin/develop (branch name) [rebase and keep merge commits]
 <br>
