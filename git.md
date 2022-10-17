@@ -18,6 +18,7 @@ git commit -a --amend
 <br>
 
 -> view commits
+<br>
 git log -v
 <br>
 git log --oneline
@@ -27,6 +28,7 @@ git reflog
 <br>
 
 -> rebase
+<br>
 git rebase -i HEAD~(n of commits to rebase)
 <br>
 git rebase origin/develop<br>
@@ -48,5 +50,6 @@ git push origin --delete (branch name)
 git fetch origin
 <br>
 git reset --hard origin/master
+<br>
 <br>
 
