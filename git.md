@@ -5,7 +5,7 @@ git push<br>
 
 -> push new branch to remote and set it as tracking branch
 <br>
-git push origin HEAD (push local repo to remote)
+git push --set-upstream origin (branch name)
 <br>
 <br>
 
