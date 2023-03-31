@@ -44,7 +44,9 @@ git push origin --delete [branch name]
 
 -> push new branch to remote and set it as tracking branch
 <br>
+```
 git push --set-upstream origin [branch name]
+```
 <br>
 
 -> commit & commit + amend
