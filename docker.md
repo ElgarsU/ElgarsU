@@ -11,34 +11,29 @@ docker ps -a
 docker start [container id]
 ```
 <br>
-<br>
 
-->restart docker container
+**->restart docker container**
 <br>
 ```
 docker restart [container id]
 ```
 <br>
-<br>
 
-->view docker container logs
+**->view docker container logs**
 <br>
 ```
 docker logs [container id]
 ```
 <br>
-<br>
 
-->start docker service (old project)
+**->start docker service (old project)**
 <br>
 ```
 docker-compose up -d
 ```
 <br>
-<br>
 
-->create DB users in MSSQL DB container (old project)
-<br>
+**->create DB users in MSSQL DB container (old project)**<br>
 ```
 ./createuser.sh (username) (password)
 ```
