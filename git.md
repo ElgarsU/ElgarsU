@@ -22,7 +22,6 @@ git fetch
 <br>
 ```
 git checkout -t [branch_name] (-t sets local to track remote)
-<br>
 git switch [remote branch name]
 ```
 <br>
@@ -80,7 +79,6 @@ git push --set-upstream origin [branch name]
 <br>
 ```
 git commit -m "A message describing what you have done to make this snapshot different"
-<br>
 git commit -a --amend
 ```
 <br>
@@ -90,9 +88,7 @@ git commit -a --amend
 <br>
 ```
 git log -v
-<br>
 git log --oneline
-<br>
 git reflog
 ```
 <br>
@@ -102,9 +98,7 @@ git reflog
 <br>
 ```
 git rebase -i HEAD~(n of commits to rebase)
-<br>
 git rebase [remote or local branch name]
-<br>
 git rebase --rebase-merges origin/develop [branch name] (rebase and keep merge commits)
 ```
 <br>
@@ -114,7 +108,6 @@ git rebase --rebase-merges origin/develop [branch name] (rebase and keep merge c
 <br>
 ```
 git fetch origin
-<br>
 git reset --hard [remote branch name]
 ```
 <br>
