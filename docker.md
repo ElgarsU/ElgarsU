@@ -4,9 +4,8 @@
 docker ps -a
 ```
 <br>
-<br>
 
-->start docker container
+**->start docker container**
 <br>
 ```
 docker start [container id]
