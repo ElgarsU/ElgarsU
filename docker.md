@@ -17,6 +17,7 @@ docker restart [container id]
 <br>
 docker logs [container id]
 <br>
+<br>
 //create DB users in MSSQL DB container
 <br>
 ./createuser.sh (username) (password)
