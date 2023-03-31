@@ -13,6 +13,9 @@ docker ps -a
 docker restart [container id]
 <br>
 <br>
+//view docker container logs
+<br>
+docker logs [container id]
 <br>
 //create DB users in MSSQL DB container
 <br>
