@@ -1,7 +1,55 @@
-//GIT commands<br>
+//GIT commands
 <br>
-git clone git@github.com:USER-NAME/REPOSITORY-NAME.git (copy remote repo)<br>
-git push<br>
+<br>
+
+-> clone remote repository
+git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+<br>
+<br>
+
+-> update branch info
+<br>
+git fetch
+<br>
+<br>
+
+-> checkout remote branch to new local branch
+<br>
+git checkout -t [branch_name] (-t sets local to track remote)
+<br>
+git switch [remote branch name]
+<br>
+<br>
+
+-> switch between local branches
+<br>
+git switch [local branch name]
+<br>
+<br>
+
+-> create new branch from current
+<br>
+git switch -c [new branch name]
+<br>
+<br>
+
+-> view all branches
+<br>
+git branch [-a to include remote branches]
+<br>
+<br>
+
+-> delete local branch
+<br>
+git branch --delete / -d [branch name]
+<br>
+<br>
+
+-> delete remote branch
+<br>
+git push origin --delete [branch name]
+<br>
+<br>
 
 -> push new branch to remote and set it as tracking branch
 <br>
@@ -37,14 +85,6 @@ git rebase --rebase-merges origin/develop (branch name) [rebase and keep merge c
 <br>
 <br>
 
--> delete local and remote branch
-<br>
-git push -d origin (branch name)
-<br>
-git push origin --delete (branch name)
-<br>
-<br>
-
 -> reset local branch to match remote
 <br>
 git fetch origin
@@ -52,4 +92,3 @@ git fetch origin
 git reset --hard origin/master
 <br>
 <br>
-
