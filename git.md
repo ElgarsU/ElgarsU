@@ -95,3 +95,12 @@ git fetch origin
 git reset --hard [remote branch name]
 ```
 <br>
+
+**-> force git to ignore files without .gitignore**
+<br>
+```
+git update-index --skip-worktree [file_name]
+git update-index --no-skip-worktree [file_name]
+git ls-files -v|grep '^S' (list all flagged files)
+```
+<br>
