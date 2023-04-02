@@ -22,7 +22,7 @@ docker restart [container id]
 **->view docker container logs**
 <br>
 ```
-docker logs [container id]
+docker logs --follow [container id]
 ```
 <br>
 
