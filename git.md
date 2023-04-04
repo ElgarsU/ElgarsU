@@ -104,3 +104,12 @@ git update-index --no-skip-worktree [file_name]
 git ls-files -v|grep '^S' (list all flagged files)
 ```
 <br>
+
+**-> set credentials**
+<br>
+```
+git config --global user.name "first-name last-name"
+git config --global user.email "email@email.com"
+```
+<br>
+
