@@ -12,6 +12,15 @@ git fetch
 ```
 <br>
 
+**-> update git submodule**
+<br>
+```
+cd [submodule]
+git fetch
+git submodule update --remote
+```
+<br>
+
 **-> checkout remote branch to new local branch**
 <br>
 ```
