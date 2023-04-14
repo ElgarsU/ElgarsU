@@ -26,6 +26,16 @@ docker logs --follow [container id]
 ```
 <br>
 
+**->delete docker container volums**
+<br>
+```
+docker compose down
+docker volume ls
+docker volume rm [volume name]
+docker compose up -d
+```
+<br>
+
 **->start docker service (old project)**
 <br>
 ```
