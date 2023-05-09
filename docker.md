@@ -36,7 +36,7 @@ docker compose up -d
 ```
 <br>
 
-**->start docker service (old project)**
+**->start docker containers with docker-compose config file**
 <br>
 ```
 docker-compose up -d
