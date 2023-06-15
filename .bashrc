@@ -17,7 +17,7 @@ alias gl="git log --oneline"
 alias gpf="git push -f"
 alias gb="git branch"
 alias gf="git fetch"
-alias gs="git switch"
+alias gsw="git switch"
 
 alias jan='cal -m 01'
 alias feb='cal -m 02'
