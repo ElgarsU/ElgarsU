@@ -14,6 +14,7 @@ alias c="clear"
 #GIT
 alias gs="git status"
 alias gl="git log --oneline"
+alias gp="git push"
 alias gpf="git push -f"
 alias gb="git branch"
 alias gf="git fetch"
